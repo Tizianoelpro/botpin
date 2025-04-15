@@ -1,9 +1,5 @@
 import 'dotenv/config';
-const {
-  Client, GatewayIntentBits, Partials,
-  SlashCommandBuilder, Collection,
-  ActionRowBuilder, ButtonBuilder, ButtonStyle, EmbedBuilder, Events
-} = require('discord.js');
+import { Client, GatewayIntentBits, Partials, SlashCommandBuilder, Collection, ActionRowBuilder, ButtonBuilder, ButtonStyle, EmbedBuilder, Events } from 'discord.js';
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds],
