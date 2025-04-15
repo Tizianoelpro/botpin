@@ -1,6 +1,7 @@
-import 'dotenv/config';
+import 'dotenv/config'; // Cargar variables de entorno
 import { Client, GatewayIntentBits, Partials, SlashCommandBuilder, Collection, ActionRowBuilder, ButtonBuilder, ButtonStyle, EmbedBuilder, Events } from 'discord.js';
 
+// Resto del código...
 const client = new Client({
   intents: [GatewayIntentBits.Guilds],
   partials: [Partials.Message, Partials.Channel, Partials.Reaction],
